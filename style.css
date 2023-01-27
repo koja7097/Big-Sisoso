@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pics{
+    background-image:url(./images/prof.jpg);
+    width: 50%;
+    height: 30rem;
+    margin: 4rem 0 0 25%;
+    border-radius: 1rem;
+    box-shadow: 10px 10px 15px whitesmoke;
+}
+.de{
+    background-color: yellowgreen,yellow,plum,peru;
+    animation: bot 1s ease-in-out infinite;
+}
+@keyframes bot {
+    to{
+        filter: hue-rotate(360deg);
+        background-color: yellowgreen,yellow,plum,peru;
+    }
+}
+.la{
+background-image: url(./images/martin-schmidli-WaOfPz6arXw-unsplash.jpg);
+background-size: cover;
+background-color: rgb(8, 8, 8);
+}
+.gee{
+    margin: 10rem 0 0 5rem;
+}
+.ande{
+    border: 1px solid bisque;
+    width: 16rem;
+    height: 25rem;
+    margin-top: 4rem;
+    float: right;
+}
+.main{
+    border: 1px solid blueviolet;
+    width: 50%;
+    height: 19rem;
+    position: absolute;
+    top: 6rem;
+    font-weight: bold;
+    font-style: oblique;
+}
+.ju{
+    position: absolute;
+    top: 2rem;
+}
+.onte{
+    font-size: medium;
+}
+.medo{
+    margin-left: 2rem;
+}
+.ger{
+    margin-left: 2rem;
+    font-size: 17px;
+}
+.user{
+    position: absolute;
+    left: 23rem;
+    top: 3rem;
+    border-radius: 4rem;
+    font-size: 4rem;
+    height: 14rem;
+    width: 14rem;
+    background-color:black;
+}
+.si{
+    position: absolute;
+    width: 9rem;
+    height: 9rem;
+    border-radius: 4rem;
+    top: 5rem;
+    left: 26rem;
+    z-index: 1;
+}
+.ki{
+    border: 1px solid black;
+    width: 1px;
+    height: 4rem;
+}
+@media screen and (min-width:330px) {
+   .pics{
+    width: ;
+   } 
+   .mai{
+    display: inline-block;
+   }
+}
+.vt{
+    font-size: 10px;
+    
+}
